@@ -1,0 +1,58 @@
+
+body {
+    background-color: rgb(106, 73, 73);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../imagens/wall.png");
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+background-color: black;
+color:bisque;
+border-bottom: 5px solid rgb(161, 148, 76);
+}
+
+.painel{
+margin-top: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.square{
+    border: 1px solid black;
+height: 150px;
+width: 150px;
+background-color: aquamarine ;
+background-image: url("../imagens/janela.jpg");
+
+}
+.inimigo{
+    background-image:url("../imagens/Ralph.png"),url("../imagens/janela.jpg");
+
+}
+
+
+.vidas{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.second{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.cor {
+    color: red;
+}
